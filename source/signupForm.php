@@ -4,7 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/style.css" />
 	<script src="../js/common/jquery-3.3.1.js" ></script>
 	<?php 
-	require('../database/database.php');
+		require('../database/database.php');
 	?>
 
 	<script>

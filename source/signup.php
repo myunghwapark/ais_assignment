@@ -10,6 +10,7 @@
 	$userType = $_POST['userType'];
 
 	$result = registerUser($userId, $userPassword, $userFirstName, $userLastName, $email, $userType);
+	
 	if ($result == 1) {
 		echo "true";
 	}
