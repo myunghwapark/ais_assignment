@@ -1,16 +1,16 @@
+html, body {
+	height:100%;
+	background-color: #c6ecf6;
+}
+
 .contentBackground {
 	height:100%;
 	float: left;
-	/*background-image:url('../images/background.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%;*/
-	background-color: #c6ecf6;
 	width:87%;
 }
 
 .menuBackground {
 	width:13%;
-	height:100%;
 	float: left;
 	background-color: #585858;
 }
@@ -77,8 +77,15 @@ table.gridtable {
 }
 table.gridtable td {
 	border:0;
-	padding: 8px;
-	background-color: transparent;
+	padding: 3px;
+	background-color: white;
+}
+table.gridtable td img {
+	width: 180px;
+}
+
+table.gridtable.internal {
+	margin:0;
 }
 
 .center
