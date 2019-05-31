@@ -70,7 +70,7 @@
 					<td><input type="Password" id="userPassword" /></td>
 				</tr>
 			</table>
-			<p><input type="button" value="Sign Up!" id="btnSignUp" class="btnSubmit"/>&nbsp;<input type="button" value="Login!" id="btnLgoin" class="btnSubmit"/></p>
+			<p><input type="button" value="Sign Up" id="btnSignUp" class="btnSubmit"/>&nbsp;<input type="button" value="Login" id="btnLgoin" class="btnSubmit"/></p>
 		</div>
 	</form>
 </body>
